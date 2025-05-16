@@ -121,9 +121,3 @@ right_fill=$(printf "%${right_pad}s" "")
 printf "%b%s%b\n" "${BG}" "${left_fill}${text}${right_fill}" "${NC}"
 }
 ############### Main of Wall Color ####################
-
-
-
-wall -pink "hello"
-sleep 1
-wall -hel "hello"
